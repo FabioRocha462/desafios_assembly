@@ -15,7 +15,7 @@ la $a0, MsgUser1
    bgt $t1,$t0, caifora
    
    li $v0,1
-   move $a0,$t0
+    
    syscall
    
    li $v0,4
